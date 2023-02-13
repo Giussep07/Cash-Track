@@ -32,7 +32,6 @@ ext {
             ui             : "androidx.compose.ui:ui:$compose_version",
             tooling        : "androidx.compose.ui:ui-tooling:$compose_version",
             tooling_preview: "androidx.compose.ui:ui-tooling-preview:$compose_version",
-            material       : "androidx.compose.material:material:$compose_version"
     ]
 
     // navigation
@@ -47,6 +46,13 @@ ext {
 
     timber = [
             timber: "com.jakewharton.timber:timber:${timber_version}"
+    ]
+
+    // material
+    material_version = "1.0.1"
+
+    material = [
+            material: "androidx.compose.material3:material3:${material_version}"
     ]
 
     // test

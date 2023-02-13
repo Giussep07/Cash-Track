@@ -60,10 +60,10 @@ dependencies {
     implementation compose.ui
     debugImplementation compose.tooling
     implementation compose.tooling_preview
-    implementation compose.material
+    //material
+    implementation material.material
 
     // test
-
     testImplementation common_test.junit
     androidTestImplementation common_test.ext_junit
     androidTestImplementation common_test.espresso
